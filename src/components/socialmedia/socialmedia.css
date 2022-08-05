@@ -1,0 +1,28 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-logo {
+  border-radius: 50%;
+  /* background-color: white; */
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: all 200ms ease-in;
+}
+.social-logo:hover {
+  transform: translateY(-4px);
+}
+
+.social1 {
+  color: white;
+  background-color: white;
+  padding: 0.2rem;
+  border-radius: 50%;
+}
+.social5 {
+  color: white;
+  padding: 0.2rem;
+  border-radius: 50%;
+}

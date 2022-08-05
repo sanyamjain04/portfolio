@@ -1,0 +1,57 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  flex-direction: row-reverse;
+  gap: 3em;
+}
+
+.container-f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.connect > h1 {
+  font-weight: 600;
+}
+
+.profileBio > h2 {
+  font-weight: 400;
+}
+
+.bio-heading {
+  color: gray;
+}
+
+.img {
+  margin: 1em;
+  border-radius: 15px;
+}
+.location {
+  align-self: flex-start;
+}
+
+.location > span {
+  font-size: medium;
+}
+
+.img > img {
+  border-radius: 15px;
+  object-fit: cover;
+  border: 0.5rem solid #635bfb;
+  box-shadow: 0 30px 30px -30px rgb(0 0 0 / 10%);
+}
+
+.bigcontact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    .contact{
+        flex-direction: column-reverse;
+    }
+}

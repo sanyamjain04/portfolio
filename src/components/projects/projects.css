@@ -1,0 +1,44 @@
+.project-tag {
+  text-align: center;
+  margin: 1em;
+}
+
+.date {
+  padding: 5px 2px;
+  color: rgb(134, 131, 131);
+}
+
+.desc {
+  word-wrap: break-word;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 40%;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 2px;
+  transition: all 150ms ease-in;
+}
+
+.project > h1 {
+  font-size: 1.5em;
+}
+
+.project:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);
+  box-shadow: 0 0 16px #d9dbdf;
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    width: 70%;
+  }
+}

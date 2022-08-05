@@ -1,13 +1,54 @@
+* {
+  box-sizing: border-box;
+  /* transition: all 100ms ease-in; */
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  max-width: 1440px;
+  background-color: var(--bgcolor);
+  margin: auto;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+:root {
+  --themeColor: #55198b;
+
+  --facebook: #3b5998;
+  --linkedin: #0e76a8;
+  --github: #333;
+  --gitlab: #fca326;
+  --google: #ea4335;
+  --twitter: #1da1f2;
+  --medium: #000;
+  --stackoverflow: #f48024;
+  --instagram: #c13584;
+  --kaggle: #20beff;
+
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --bgcolor: #171c28;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0256fd7a;
+}
+::-webkit-scrollbar-thumb {
+  background: #0f2556;
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--themeColor);
 }

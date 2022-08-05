@@ -1,0 +1,145 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.btn {
+  padding: 12px 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+  color: #fff;
+  margin: 1em;
+  background-color: var(--themeColor);
+  outline: none;
+  font-weight: bold;
+  transition: all 250ms ease-in;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: var(--themeColor);
+  transform: translateY(-3px);
+}
+
+.greeting-main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  
+}
+
+.greeting-text-div {
+  padding: 1em;
+}
+
+.greeting-text-div >div > p {
+  font-size: 1.3em;
+
+}
+
+.greeting-image-div {
+    margin: 1em;
+}
+
+.greeting-image-div > img {
+    border-radius: 20px;
+    object-fit: contain;
+  transition: all 250ms ease-in;
+
+}
+
+.greeting-image-div > img:hover {
+  transform: translateY(-6px);
+
+}
+
+.what-section{
+  margin: 1em;
+  padding: 1em;
+}
+
+.what-section > p {
+  font-size: 1.3em;
+}
+.logotech{
+ 
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+ 
+}
+.techstack {
+  transition: all 150ms ease-in;
+}
+
+.techstack:hover {
+  transform: translateY(-3px);
+}
+
+.proficiency {
+  margin: 1em 0;
+  width: 50%;
+}
+.proficiency> h1 {
+  text-align: center;
+}
+.meter {
+  height: 20px;
+  background-color: #f3efef;
+  border-radius: 25px;
+
+}
+.meter > span {
+  background-color: #aaa5ff;
+  display: block;
+  border-radius: 25px;
+  height: 100%;
+}
+
+.projects-section{
+  /* background-color: #0f255662; */
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 2px;
+  transition: all 150ms ease-in;
+
+
+}
+
+.projects-section:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);
+  box-shadow: 0 0 16px #d9dbdf;;
+}
+
+
+.projects-section > h1{
+  text-align  : center;
+}
+
+.blogs-section{
+  margin: 2em;
+
+}
+
+.blogs-section>h1{
+  text-align: center;
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .greeting-main{
+      flex-direction: column;
+    }
+    .logotech{
+      flex-wrap: wrap;
+    }
+}
