@@ -1,4 +1,4 @@
-rel = "noreferrer";
+
 
 import React from "react";
 import "./socialmedia.css";
