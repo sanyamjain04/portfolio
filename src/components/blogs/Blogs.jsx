@@ -31,7 +31,7 @@ const Blogs = () => {
           .
         </p>
       </div>
-      {blogpost == "0" ? (
+      {blogpost === "0" ? (
         <div>
           <div className="blogs-section1">
             <div className="blog1">
@@ -118,6 +118,7 @@ const Blogs = () => {
                     className="extralinks"
                     href="https://codepen.io/sanyam04/full/jOBWpaN"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     this
                   </a>{" "}
@@ -178,7 +179,7 @@ const Blogs = () => {
           </div>
           <div className="otherBlogs">Check out my all Blogs</div>
         </div>
-      ) : blogpost == "1" ? (
+      ) : blogpost === "1" ? (
         <div>
           <div className="blogs-section1">
             <div className="blog1">
@@ -253,14 +254,11 @@ const Blogs = () => {
               <h1>{blog.title}</h1>
               <p className="date">{blog.date}</p>
               <p className="desc">{blog.desc}</p>
-              <a
-              //  href={blog.bloglink}
-              // target="_blank"
-              >
+                         
                 <button className="btn" onClick={() => setBlogpost(blog.id)}>
                   Read More
                 </button>
-              </a>
+              
             </div>
           ))}
         </div>

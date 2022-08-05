@@ -7,14 +7,16 @@ const projects = {
       name: "CLI quiz app ",
       date: "August, 2022",
       desc: "A CLI app built with nodeJS. ",
-      projectLink: "https://replit.com/@sanyam04/CLI-quiz-app-India-Quiz?embed=1?output=1",
+      projectLink:
+        "https://replit.com/@sanyam04/CLI-quiz-app-India-Quiz?embed=1?output=1",
       sourceCode: "https://github.com/neogcamp/build-profit-or-loss",
     },
     {
       name: "CLI General Knowledge App",
       date: "August, 2022",
       desc: "A CLI app built with nodeJS. ",
-      projectLink: "https://replit.com/@sanyam04/CLI-General-Knowledge-Quiz-App?embed=true%3Eoutput%3D1",
+      projectLink:
+        "https://replit.com/@sanyam04/CLI-General-Knowledge-Quiz-App?embed=true%3Eoutput%3D1",
       sourceCode: "https://github.com/sanyamjain04/CLI-general-question-quiz",
     },
     {
@@ -36,7 +38,8 @@ const projects = {
       date: "August, 2022",
       desc: "A Emoji Interpreter. select the Emoji and know the meaning of it",
       projectLink: "https://ef4f9x.csb.app/",
-      sourceCode: "https://github.com/sanyamjain04/Neog-Mark-8-Emoticon-interpreter",
+      sourceCode:
+        "https://github.com/sanyamjain04/Neog-Mark-8-Emoticon-interpreter",
     },
     {
       name: "📚 GoodBooks",
@@ -57,7 +60,8 @@ const projects = {
       date: "August, 2022",
       desc: "A website which can help you to check whether your birthday is lucky or not.",
       projectLink: "https://birthdate-lucky-app.netlify.app/",
-      sourceCode: "https://github.com/sanyamjain04/Neog-Mark11--birthdate-lucky",
+      sourceCode:
+        "https://github.com/sanyamjain04/Neog-Mark11--birthdate-lucky",
     },
     {
       name: "Do you know Triangles?",
@@ -80,9 +84,8 @@ const projects = {
       projectLink: "https://profit-loss-app-sanyam.netlify.app/",
       sourceCode: "https://github.com/sanyamjain04/Profit-and-loss-app",
     },
-    
   ],
-  OtherProjects: [    
+  OtherProjects: [
     {
       name: "",
       date: "August, 2022",
@@ -111,10 +114,10 @@ const Projects = () => {
             <h1>{proj.name}</h1>
             <p className="date">{proj.date}</p>
             <p className="desc">{proj.desc}</p>
-            <a href={proj.projectLink}  target="_blank">
+            <a href={proj.projectLink} rel="noreferrer" target="_blank">
               <button className="btn">Live Project</button>
             </a>
-            <a href={proj.sourceCode} target="_blank">
+            <a href={proj.sourceCode} rel="noreferrer" target="_blank">
               <button className="btn">Source Code</button>
             </a>
           </div>
