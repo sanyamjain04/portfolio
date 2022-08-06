@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import "./socialmedia.css";
 import github from "../../assets/github1.png";
