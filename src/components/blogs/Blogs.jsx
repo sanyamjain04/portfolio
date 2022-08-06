@@ -39,7 +39,7 @@ const Blogs = () => {
               <p className="date">{blog.date}</p>
               <p className="desc">{blog.desc}</p>
                 <Link to={blog.id} >
-                <button className="btn" onClick={() => setBlogpost(blog.id)}>
+                <button className="btn">
                   Read More
                 </button>
               
