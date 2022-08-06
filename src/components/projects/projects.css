@@ -5,6 +5,8 @@
 
 .date {
   padding: 5px 2px;
+
+  display: inline;
   color: rgb(134, 131, 131);
 }
 
@@ -26,6 +28,11 @@
   border-radius: 2px;
   transition: all 150ms ease-in;
 }
+
+.project-btn {
+  display: flex;
+}
+
 
 .project > h1 {
   font-size: 1.5em;

@@ -128,12 +128,14 @@ const Projects = () => {
             <h1>{proj.name}</h1>
             <p className="date">{proj.date}</p>
             <p className="desc">{proj.desc}</p>
-            <a href={proj.projectLink} rel="noreferrer" target="_blank">
-              <button className="btn">Live Project</button>
-            </a>
-            <a href={proj.sourceCode} rel="noreferrer" target="_blank">
-              <button className="btn">Source Code</button>
-            </a>
+            {/* <div className="project-btn"> */}
+                <a href={proj.projectLink} rel="noreferrer" target="_blank">
+                  <button className="btn project-btn-child">Live Project</button>
+                </a>
+                <a href={proj.sourceCode} rel="noreferrer" target="_blank">
+                  <button className="btn project-btn-child">Source Code</button>
+                </a>
+            {/* </div> */}
           </div>
         ))}
       </div>

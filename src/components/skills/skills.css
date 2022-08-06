@@ -16,6 +16,8 @@
   color: #fff;
   margin: 1em;
   background-color: var(--themeColor);
+  border-bottom: 5px solid var(--themeColor);
+
   outline: none;
   font-weight: bold;
   transition: all 250ms ease-in;
@@ -25,13 +27,14 @@
   background-color: #fff;
   color: var(--themeColor);
   transform: translateY(-3px);
+  border-bottom: 5px solid var(--twitter);
 }
 
 .greeting-main{
   display: flex;
   align-items: center;
   justify-content: space-around;
-
+  margin: 0 1rem;
   
 }
 
