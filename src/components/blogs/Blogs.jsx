@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Blog1 from "../blog/Blog1";
 import "./blogs.css";
 
 const blogs = [
@@ -33,10 +32,6 @@ const Blogs = () => {
           .
         </p>
       </div>
-      {/* {blogpost === "0" ? <Blog1 />  : blogpost === "1" ?  : (
-        ""
-      )} */}
-
       <div>
         <div className="blog1">
           {blogs.map((blog) => (
