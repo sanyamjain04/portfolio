@@ -107,6 +107,13 @@ const projects = {
       projectLink: "https://real-estate-project-lake.vercel.app/",
       sourceCode: "https://github.com/sanyamjain04/Real-estate-project",
     },
+    {
+      name: "Fudomato Project",
+      date: "July, 2022",
+      desc: "An online food ordering web app. Tech stack used ~ NextJS for Frontend and sanity for Backend.",
+      projectLink: "https://fudomart.netlify.app/",
+      sourceCode: "https://github.com/sanyamjain04/Fudomart---an-online-food-ordering-App",
+    },
   ],
 };
 const Projects = () => {
