@@ -9,7 +9,7 @@ const projects = {
       desc: "A CLI app built with nodeJS. This Quiz contains some common question about our Country India. ",
       projectLink:
         "https://replit.com/@sanyam04/CLI-quiz-app-India-Quiz?embed=1?output=1",
-      sourceCode: "https://github.com/neogcamp/build-profit-or-loss",
+      sourceCode: "https://github.com/sanyamjain04/CLI-quiz-app",
     },
     {
       name: "CLI General Knowledge Quiz App",
