@@ -87,11 +87,11 @@ const projects = {
   ],
   OtherProjects: [
     {
-      name: " Movie-Search-app",
-      date: "July, 2022",
-      desc: "It is a Web App where we can search the Movies by their name and get the overview. It is fetching the movie data from Movie API",
-      projectLink: "https://sanyamjain04.github.io/Movie-Search-app/",
-      sourceCode: "https://github.com/sanyamjain04/Movie-Search-app",
+      name: "Hulu Clone",
+      date: "August, 2022",
+      desc: "It is a Web App where user get  search the Movies by their genre. It is fetching the movie data from Movie API",
+      projectLink: "https://sanyamhulu.netlify.app/",
+      sourceCode: "https://github.com/sanyamjain04/hulu-clone",
     },
     {
       name: "Social Media Project",
@@ -113,6 +113,13 @@ const projects = {
       desc: "An online food ordering web app. Tech stack used ~ NextJS for Frontend and sanity for Backend.",
       projectLink: "https://fudomart.netlify.app/",
       sourceCode: "https://github.com/sanyamjain04/Fudomart---an-online-food-ordering-App",
+    },
+    {
+      name: " Movie-Search-app",
+      date: "July, 2022",
+      desc: "It is a Web App where we can search the Movies by their name and get the overview. It is fetching the movie data from Movie API",
+      projectLink: "https://sanyamjain04.github.io/Movie-Search-app/",
+      sourceCode: "https://github.com/sanyamjain04/Movie-Search-app",
     },
   ],
 };
