@@ -68,7 +68,7 @@ const projects = {
       date: "August, 2022",
       desc: "A website which helps you to learn about triangle.",
       projectLink: "https://ubftni.csb.app/",
-      sourceCode: "https://codesandbox.io/s/fun-with-triamgle-ubftni",
+      sourceCode: "https://github.com/sanyamjain04/Fun-with-triangles",
     },
     {
       name: "🎂 Palindrome Birthday",
