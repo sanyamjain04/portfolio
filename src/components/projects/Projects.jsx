@@ -124,7 +124,7 @@ const projects = {
   ],
 };
 const Projects = () => {
-  const [project, setProject] = useState("Mark15");
+  const [project, setProject] = useState("OtherProjects");
 
   return (
     <div className="project-container">
@@ -133,7 +133,7 @@ const Projects = () => {
           Mark15
         </button>
         <button className="btn" onClick={() => setProject("OtherProjects")}>
-          Other Projects
+          Projects
         </button>
       </div>
       <div className="projects">
