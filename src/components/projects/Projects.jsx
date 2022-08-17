@@ -85,7 +85,7 @@ const projects = {
       sourceCode: "https://github.com/sanyamjain04/Profit-and-loss-app",
     },
   ],
-  OtherProjects: [
+  Projects: [
     {
       name: "Hulu Clone",
       date: "August, 2022",
@@ -124,17 +124,24 @@ const projects = {
   ],
 };
 const Projects = () => {
-  const [project, setProject] = useState("OtherProjects");
+  const [project, setProject] = useState("Projects");
+  const projectType = Object.keys(projects)
+  console.log(projectType)
 
   return (
     <div className="project-container">
       <div className="project-tag">
-        <button className="btn" onClick={() => setProject("Mark15")}>
-          Mark15
+        {projectType.map((type) => {
+          return (
+        <button className="btn"
+         style={{borderBottom: type === project ? "5px solid white" : ""}}
+          key={type} onClick={() => setProject(type)}>
+          {type}
         </button>
-        <button className="btn" onClick={() => setProject("OtherProjects")}>
-          Projects
-        </button>
+
+          )
+        })}
+        
       </div>
       <div className="projects">
         {projects[project].map((proj) => (

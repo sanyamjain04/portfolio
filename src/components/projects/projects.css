@@ -3,6 +3,11 @@
   margin: 1em;
 }
 
+.project-tag > div {
+  display: inline-flex;
+}
+
+
 .date {
   padding: 5px 2px;
 
