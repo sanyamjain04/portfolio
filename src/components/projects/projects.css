@@ -19,6 +19,13 @@
   word-wrap: break-word;
 }
 
+.technology {
+  margin-right: 10px;
+  padding: 1px  8px;
+  background-color: #894fdf95;
+  border-radius: 10px;
+}
+
 .projects {
   display: flex;
   align-items: center;
@@ -52,5 +59,8 @@
 @media screen and (max-width: 768px) {
   .project {
     width: 70%;
+  }
+  .header{
+    flex-direction: column;
   }
 }
